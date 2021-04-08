@@ -4,3 +4,6 @@
 [submodule "beagle_kernel_5.10"]
 	path = beagle_kernel_5.10
 	url = https://github.com/starfive-tech/beagle_kernel_5.10.git
+[submodule "beagle_opensbi"]
+	path = beagle_opensbi
+	url = https://github.com/starfive-tech/beagle_opensbi.git
