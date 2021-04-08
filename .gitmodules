@@ -1,0 +1,3 @@
+[submodule "beagle_uboot-opensbi"]
+	path = beagle_uboot-opensbi
+	url = https://github.com/starfive-tech/beagle_uboot-opensbi.git
