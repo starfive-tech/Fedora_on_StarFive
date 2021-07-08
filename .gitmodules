@@ -1,9 +1,9 @@
-[submodule "beagle_uboot-opensbi"]
-	path = beagle_uboot-opensbi
-	url = https://github.com/starfive-tech/beagle_uboot-opensbi.git
-[submodule "beagle_kernel_5.10"]
-	path = beagle_kernel_5.10
-	url = https://github.com/starfive-tech/beagle_kernel_5.10.git
-[submodule "beagle_opensbi"]
-	path = beagle_opensbi
-	url = https://github.com/starfive-tech/beagle_opensbi.git
+[submodule "u-boot"]
+	path = u-boot
+	url = https://github.com/starfive-tech/u-boot.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/starfive-tech/linux.git
+[submodule "opensbi"]
+	path = opensbi
+	url = https://github.com/starfive-tech/opensbi.git
