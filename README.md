@@ -8,6 +8,7 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
     * Using the latest 5.14.0-rc6+ kernel from GitHub - [starfive-tech/linux](https://github.com/starfive-tech/linux/commits/beaglev)
     * Fix the stability of some TF cards based on 50MHz frequency SDIO - [issue#23](https://github.com/starfive-tech/Fedora_on_StarFive/issues/23)
     * Support pinctrl driver
+  * Notes: please use the release version [u-boot binary](https://github.com/starfive-tech/Fedora_on_StarFive/releases/tag/fw_payload_0823_starlight) to test this Fedora image
 
 
 ### Past images:
