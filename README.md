@@ -2,16 +2,19 @@
 This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://github.com/starfive-tech/StarLight_Docs/blob/main/JH7100%20Data%20Sheet%20V01.01.04-EN%20(4-21-2021).pdf) (RV64GC) and Starlight SBC board.  Please open issues regarding the Fedora image in [this repository](https://github.com/starfive-tech/Fedora_on_StarFive/issues).
 
 ### Download the latest image: 
-* **2021-August-22:** [Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210822.n.0-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210822.n.0-sda.raw.zst)
-  * [sha256sum](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/SHA256SUMS): `sha256sum: 7078b9c19e1451136813a3a3409e4e90f4de44103cc302450cd8f236d6d8e2b2`
+* **2021-September-27:** [Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210927.n.1-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210927.n.1-sda.raw.zst)
+  * [sha256sum](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/SHA256SUMS): `sha256sum: 9484901d1f743a0a11ebb56b174a4d281cf66e445281458ce6086044da805ff4`
   * Changes:
-    * Using the latest 5.14.0-rc6+ kernel from GitHub - [starfive-tech/linux](https://github.com/starfive-tech/linux/commits/beaglev)
-    * Fix the stability of some TF cards based on 50MHz frequency SDIO - [issue#23](https://github.com/starfive-tech/Fedora_on_StarFive/issues/23)
-    * Support pinctrl driver
-  * Notes: please use the release version [u-boot binary](https://github.com/starfive-tech/Fedora_on_StarFive/releases/tag/fw_payload_0823_starlight) to test this Fedora image
+    * Using the latest 5.15.0-rc3+ kernel - [starfive-tech/linux](https://github.com/starfive-tech/linux/commits/starlight) with tag [linux_5.13_rc3_2021.10.01](https://github.com/starfive-tech/linux/tree/linux_5.13_rc3_2021.10.01)
+    * Support Bluetooth module and load the correct firmware automatically - [issue#4](https://github.com/starfive-tech/Fedora_on_StarFive/issues/4)
+    * Add DRM driver to support more HDMI displays - [issue#32](https://github.com/starfive-tech/Fedora_on_StarFive/issues/32)
+    * Support grub to boot Fedora - [issue#3](https://github.com/starfive-tech/u-boot/issues/3)
+    * Change NVDLA as a module 
 
 
 ### Past images:
+* **2021-August-22:** [Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210822.n.0-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/image-history/BeagleV-release/Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210822.n.0-sda.raw.zst)
+  * [sha256sum](https://fedora.starfivetech.com/pub/downloads/image-history/BeagleV-release/SHA256SUMS): `sha256sum: 7078b9c19e1451136813a3a3409e4e90f4de44103cc302450cd8f236d6d8e2b2`
 * **2021-July-27:** [Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210727.n.0-sda.raw.xz](https://fedora.starfivetech.com/pub/downloads/image-history/BeagleV-release/Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210727.n.0-sda.raw.xz)
   * [sha256sum](https://beagleboard.org/~pdp7/Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210707.n.0-sda.raw.zst.sha256sum): `sha256sum: 02ba0418d93b87ab6988b67b06850cf847791bdc13408643119684806ede0016`
 * **2021-July-7:** [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210707.n.0-sda.raw.zst](https://files.beagle.cc/file/beagleboard-public-2021/images/Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210707.n.0-sda.raw.zst)
