@@ -1,12 +1,12 @@
 [submodule "u-boot"]
 	path = u-boot
-	url = https://github.com/starfive-tech/u-boot.git
-	branch = Fedora_JH7100_upstream
+	url = git@github.com:starfive-tech/u-boot.git
+	branch = Fedora_JH7100_upstream_devel
 [submodule "linux"]
 	path = linux
-	url = https://github.com/starfive-tech/linux.git
-	branch = beaglev
+	url = git@github.com:starfive-tech/linux.git
+	branch = starlight
 [submodule "opensbi"]
 	path = opensbi
-	url = https://github.com/starfive-tech/opensbi.git
+	url = git@github.com:starfive-tech/opensbi.git
 	branch = master
