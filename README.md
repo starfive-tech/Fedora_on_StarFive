@@ -10,7 +10,7 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
     * Add DRM driver to support more HDMI displays - [issue#32](https://github.com/starfive-tech/Fedora_on_StarFive/issues/32)
     * Support grub to boot Fedora - [issue#3](https://github.com/starfive-tech/u-boot/issues/3)
     * Change NVDLA as a module 
-
+* Notes: Please use the release [u-boot binary](https://github.com/starfive-tech/Fedora_on_StarFive/releases/tag/fw_payload_1001_starlight) to test this Fedora image
 
 ### Past images:
 * **2021-August-22:** [Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210822.n.0-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/image-history/BeagleV-release/Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210822.n.0-sda.raw.zst)
