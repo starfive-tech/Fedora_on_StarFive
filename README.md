@@ -5,7 +5,7 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 * **2021-September-27:** [Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210927.n.1-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210927.n.1-sda.raw.zst)
   * [sha256sum](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/SHA256SUMS): `sha256sum: 9484901d1f743a0a11ebb56b174a4d281cf66e445281458ce6086044da805ff4`
   * Changes:
-    * Using the latest 5.15.0-rc3+ kernel - [starfive-tech/linux](https://github.com/starfive-tech/linux/commits/starlight) with tag [linux_5.13_rc3_2021.10.01](https://github.com/starfive-tech/linux/tree/linux_5.13_rc3_2021.10.01)
+    * Using the latest 5.15.0-rc3+ kernel - [starfive-tech/linux](https://github.com/starfive-tech/linux/commits/starlight) with tag [linux_5.15_rc3_2021.10.01](https://github.com/starfive-tech/linux/releases/tag/linux_5.15_rc3_2021.10.01)
     * Support Bluetooth module and load the correct firmware automatically - [issue#4](https://github.com/starfive-tech/Fedora_on_StarFive/issues/4)
     * Add DRM driver to support more HDMI displays - [issue#32](https://github.com/starfive-tech/Fedora_on_StarFive/issues/32)
     * Support grub to boot Fedora - [issue#3](https://github.com/starfive-tech/u-boot/issues/3)
