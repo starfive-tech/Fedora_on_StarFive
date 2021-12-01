@@ -3,14 +3,12 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 
 ### Download the latest image: 
 **2021-November-29:** [Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211129-184322.n.0-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/VisionFive-release/Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211129-184322.n.0-sda.raw.zst)
-
 * [sha256sum](https://fedora.starfivetech.com/pub/downloads/VisionFive-release/SHA256SUMS): `sha256sum: 16e7a1e1e6445e6c04ac1bd7a7bbd36bb47a49d207560f6bcef0d6a614e4eac9`
 * Changes:
   * Using the 5.15.0 LTS kernel with RPM package;
   * Using the latest 5.16-rc2+ kernel - [starfive-tech/linux](https://github.com/starfive-tech/linux/tree/visionfive) with tag [linux_5.16_rc2_2021.11.27](https://github.com/starfive-tech/linux/releases/tag/linux_5.16_rc2_2021.11.27);
   * Support hardware watchdog;
   * Support both of Starlight and VisionFive board;
-
 * Issues:
   * The desktop may not be displayed when you switch to another resolution;
   * Kernel panic when system booting with USB drive in rare case;
