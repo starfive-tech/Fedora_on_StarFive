@@ -2,6 +2,24 @@
 This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://github.com/starfive-tech/JH7100_Docs/blob/main/JH7100%20Data%20Sheet%20V01.01.04-EN%20(4-21-2021).pdf) (RV64GC) and Starlight SBC board.  Please open issues regarding the Fedora image in [this repository](https://github.com/starfive-tech/Fedora_on_StarFive/issues).
 
 ### Download the latest image: 
+**2021-November-29:** [Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211129-184322.n.0-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/VisionFive-release/Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211129-184322.n.0-sda.raw.zst)
+
+* [sha256sum](https://fedora.starfivetech.com/pub/downloads/VisionFive-release/SHA256SUMS): `sha256sum: 16e7a1e1e6445e6c04ac1bd7a7bbd36bb47a49d207560f6bcef0d6a614e4eac9`
+* Changes:
+  * Using the 5.15.0 LTS kernel with RPM package;
+  * Using the latest 5.16-rc2+ kernel - [starfive-tech/linux](https://github.com/starfive-tech/linux/tree/visionfive) with tag [linux_5.16_rc2_2021.11.27](https://github.com/starfive-tech/linux/releases/tag/linux_5.16_rc2_2021.11.27);
+  * Support hardware watchdog;
+  * Support both of Starlight and VisionFive board;
+
+* Issues:
+  * The desktop may not be displayed when you switch to another resolution;
+  * Kernel panic when system booting with USB drive in rare case;
+  * Kernel oops (wifi&bluetooth module) when enable brcmfmac driver in some case (system start-up or connected to a wireless hotspot);
+  * Real hot swap is not supported in case of HDMI is not connected before power-on;
+  * Failed to open the Bilibili web page by firefox;
+
+
+### Past images:
 * **2021-October-27:** [Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211027-130325.n.0-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211027-130325.n.0-sda.raw.zst)
   * [sha256sum](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/SHA256SUMS): `sha256sum: c84fdf821c8e82c454da23d326cd6b8a91041e61748d5c51a8325e6ac3768dd9`
   * Changes:
@@ -9,8 +27,6 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
     * Enable CONFIG_FRAMEBUFFER_CONSOLE;
     * Support Firefox browser;
     * Support podman;
-
-### Past images:
 * **2021-September-27:** [Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210927.n.1-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/Fedora-riscv64-developer-xfce-with-esp-Rawhide-20210927.n.1-sda.raw.zst)
   * [sha256sum](https://fedora.starfivetech.com/pub/downloads/BeagleV-release/SHA256SUMS): `sha256sum: 9484901d1f743a0a11ebb56b174a4d281cf66e445281458ce6086044da805ff4`
   * Changes: 
