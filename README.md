@@ -4,6 +4,8 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 ### Download the latest image: 
 **2021-December-26:** [Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211226-214100.n.0-sda.raw.zst](https://fedora.starfivetech.com/pub/downloads/VisionFive-release/Fedora-riscv64-jh7100-developer-xfce-Rawhide-20211226-214100.n.0-sda.raw.zst)
 
+Backup link:https://drive.google.com/drive/folders/1fOW8is_jasNUkGQb0hAQzQt9QH5BCoDf?usp=sharing
+
 * [sha256sum](https://fedora.starfivetech.com/pub/downloads/VisionFive-release/SHA256SUMS): `sha256sum: 94c73c967e12c80192d7bf25147badd9f0ee1738dc9800d1c502f376df5d5e2f`
 * Changes:
   * Using the LTS kernel 5.15 with tag [linux-5.15.10](https://github.com/starfive-tech/linux/releases/tag/linux_5.15.10_devel_pwmdac);
